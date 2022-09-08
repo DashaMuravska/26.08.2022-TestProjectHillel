@@ -1,4 +1,4 @@
-test_list = [ ]
+test_list = [1, 2, 3, 4]
 length = len(test_list)
 if length % 2 == 0:
     mid = length // 2
