@@ -62,7 +62,4 @@ else:
         else:
             print(n, "->", days, "дня", hours + ":" + minutes + ":" + seconds)
 
-    else:
-        print("Неверное число!")
-
 
