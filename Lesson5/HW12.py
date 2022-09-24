@@ -14,7 +14,7 @@ a_len = len(a)
 a = a.title()
 b = a
 for i in range(a_len):
-    if a[i] in string.punctuation:
+    if a[i] in string.punctuation or a[i]:
         b = b.replace(a[i], '')
 lst = b.split()
 s = "".join(lst)
