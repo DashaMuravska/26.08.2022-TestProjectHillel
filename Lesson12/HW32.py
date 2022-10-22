@@ -69,10 +69,10 @@ user2 = User('Jan', 'Mushinsky', '380501312008')
 item1 = Item('Phone', 'Iphone 14Pro', 'Black', 1000)
 item2 = Item('Phone', 'Samsung S8+', 'Black', 500)
 item3 = Item('Notebook', 'Macbook Air 13', 'SpaceGrey', 2000)
-
 purchase1 = Purchase(user1)
 purchase1.add_item(item1, 1)
 purchase1.add_item(item2, 2)
+a = purchase1.get_item(item1)
 sum1 = purchase1.get_total()
 
 purchase2 = Purchase(user2)
@@ -82,5 +82,6 @@ sum2 = purchase2.get_total()
 
 print(purchase1)
 print(sum1)
+print('Item', a)
 print(purchase2)
 print(sum2)
